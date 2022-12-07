@@ -4,10 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="input.css">
     <title>Sign-Up</title>
 </head>
 <body>
-  <h1 class="text-4xl">Hello TailwindCss!</h1>  
+    <div class="container">
+        <div class="hero">
+            <div class="image-text">
+                <img src="assets/odin-lined.png" alt="Odin image">
+                <p class="odin">ODIN FOREST</p>  
+            </div>
+        </div>
+        <div class="text-section">
+            <div class="description">
+                <p>This  is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+                    Sign up now to get started</p>
+                <p>You <em>know</em> you want to</p>
+            </div>
+            <div class="form">
+                <p>Let's do this!</p>
+                <form action="http://httpbin.org/post" method="post">
+                <li>
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" name="first_name" id="first_name" required>
+                </li>
+                <li>
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="last_name" id="last_name" required>
+                </li>
+                <li>
+                    <label for="last_name">E-MAIL</label>
+                    <input type="email" name="last_name" id="last_name" required>
+                </li>
+                <li>
+                    <label for="last_name">PHONE NUMBER</label>
+                    <input type="number" name="last_name" id="last_name">
+                </li>
+                <li>
+                    <label for="last_name">PASSWORD</label>
+                    <input type="password" name="last_name" id="last_name" required>
+                </li>
+                <li>
+                    <label for="last_name">CONFIRM PASSWORD</label>
+                    <input type="password" name="last_name" id="last_name" required>
+                </li>
+                </form>
+            </div>
+            <div class="bottom-text">
+                <button type="submit" class="account-btn">Create Account</button>
+                <p>Already have an account? <a href="http://jw.org">Log In</a></p>
+            </div>
+        </div>
+    </div>  
 </body>
 </html>

@@ -1,3 +1,117 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Roboto+Slab:wght@300,500,600&display=swap');
+:root {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
+    width: 40%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.hero img {
+    max-width: 15%;
+    flex-grow: 1;
+}
+
+.image-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+}
+
+.odin {
+    font-family: 'Jura',sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+
+.material-symbols-outlined {
+    color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.text-section {
+    background-color: rgb(250, 250, 250);
+    padding-top: 6rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.form {
+    font-size: 1.6rem;
+    background-color: white;
+    margin: 0;
+    padding: 3rem;
+    list-style: none;
+    box-shadow: 0px 4px 4px rgb(217, 217, 217);
+}
+
+label {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.description {
+    padding: 3rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 25rem);
+    column-gap: 9rem;
+    row-gap: 2rem;
+    padding: 2rem 0 2rem 0;
+}
+
+form input {
+    width: 25rem;
+    border: solid rgb(190, 188, 188);
+    line-height: 1.8rem;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+}
+
+.account-btn {
+    padding: 1.5rem 2rem;
+    background-color: rgb(62, 91, 26);
+    color: white;
+    border: 0px solid;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.bottom-text {
+    padding: 4rem 3rem;
+}
+
+.bottom-text a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(62, 91, 26);
+}
