@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Description the project.
+> Sign-up form
 
 
 ## Built With
